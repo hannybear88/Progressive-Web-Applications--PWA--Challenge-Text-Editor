@@ -42,6 +42,7 @@ Testing restful API calls with Insomnia Core
 - I WANT to create notes or code snippets with or without an internet connection
 - SO THAT I can reliably retrieve them for later use
 
+
 ## Acceptance Criteria
 - GIVEN a text editor web application
 - WHEN I open my application in my editor
@@ -69,7 +70,9 @@ Testing restful API calls with Insomnia Core
 - WHEN I deploy to Heroku
 - THEN I should have proper build scripts for a webpack application
 
+
 ## Usage
+
 
 ## Demo
 
@@ -153,7 +156,6 @@ Screenshots
 ![DELETE category by id](/assets/images/DELETE_category_by_id_screenshot.png)
 
 
-
 ## Technologies Used
 
 ![Technologies](https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -163,7 +165,6 @@ Screenshots
 ![Technologies](https://img.shields.io/badge/npm%20package-express-green?style=flat-square&logo=npm)
 ![Technologies](https://img.shields.io/badge/npm%20package-mongoose-purple?style=flat-square&logo=npm) 
 ![Technologies](https://img.shields.io/badge/Database-MongoDB-yellow?style=flat-square&logo=mongoDB) 
-
 
 
 ## Support
