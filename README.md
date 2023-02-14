@@ -76,16 +76,13 @@ Testing restful API calls with Insomnia Core
 
 ## Demo
 
-Walkthrough Video
 
-Please [click here] (link here) for a walkthrough video that demonstrates the application's functionality.
+Click on the button below to be directed straight to the Heroku deployed application
 
-<!-- Click on the button below to be directed straight to the Heroku deployed application
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://model-view-controller--mvc.herokuapp.com/) -->
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://nosql-social-network-api.herokuapp.com/)
 
 Screenshots
-**TAGS**
+<!-- **TAGS**
 
 * GET all tags 
 ![Get all tags](assets/images/GET_all_tags_screenshot.png)
@@ -153,7 +150,7 @@ Screenshots
 ![GET one tag by id after updating new tag ](/assets/images/GET_one_category_by_id_after_updating_new_category_screenshot.png)
 
 * DELETE category by id
-![DELETE category by id](/assets/images/DELETE_category_by_id_screenshot.png)
+![DELETE category by id](/assets/images/DELETE_category_by_id_screenshot.png) -->
 
 
 ## Technologies Used
