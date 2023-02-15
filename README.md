@@ -22,14 +22,24 @@ To build this text editor,we will start with an existing application and impleme
 
 
 ## Installation
-1. Clone the repo
-2. Install all dependencies 
-    - `npm init -y`
-    - `npm` install 
-3. Start the server 
-4.   - `npm` start
+* This text editor require a number of methods and store data to an IndexedDB database to be builded up.
 
-5. Open Insomnia Core to test API routes
+* This application will require the installation of Node.js and various npm packages.
+
+*   Node Package Manager (npm) is a software manager and installer which puts the modules in place so that the node project can utilize it, and also, it manages dependency conflicts intelligently and initialized using **npm init**. The package.json will be generated and will contains all the details of the application in which the user have inputted during the npm initialization. 
+
+*  This application will use the following npm packages:-
+
+    * npm install express (express.js)
+    * npm install --save-dev webpack (Webpack)
+    * npm install webpack-dev-server --save-dev (webpack-dev-server)
+    * npm install --save-dev webpack-pwa-manifest (WebpackPwaManifest)
+    * npm install babel (Babel)
+    * npm install --save-dev css-loader (CSS-loader)
+    * npm install concurrently --save (run multiple commands concurrently.) (Concurrently)
+    * npm npm install idb (IndexedDB)
+
+* The required modules are bundled in the package.json file and at CLI or integrated terminal type in **npm run install**, the modules will be installed.  
 
 
 ## Tests
@@ -76,81 +86,90 @@ Testing restful API calls with Insomnia Core
 
 ## Demo
 
-
 Click on the button below to be directed straight to the Heroku deployed application
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://nosql-social-network-api.herokuapp.com/)
 
 Screenshots
-<!-- **TAGS**
+1.
+``````    
+GIVEN a text editor web application, 
+WHEN I open my application in my editor
+THEN I should see a client server folder structure
+``````
+*Below is the screenshot of the client server folder structure.  The folder structure have been set up or given in this structure.*
 
-* GET all tags 
-![Get all tags](assets/images/GET_all_tags_screenshot.png)
-
-* GET one tag by id
-![GET one tag by id](assets/images/GET_one_tag_by_id_screenshot.png)
-
-* CREATE new tag
-![CREATE new tag](assets/images/CREATE_new_tag_screenshot.png)
-
-* CREATE one tag by id after creating new tag
-![CREATE one tag by id after creating new tag](assets/images/GET_one_tag_by_id_after_creating_new_tag_screenshot.png)
-
-* UPDATE tag by id
-![UPDATE tag by id](/assets/images/UPDATE_tag_by_id.png)
-
-* GET one tag by id after updating new tag 
-![GET one tag by id after updating new tag ](/assets/images/GET_one_tag_by_id_after_updating_new_tag_screenshot.png)
-
-* DELETE tag by id
-![DELETE tag by id](assets/images/DELETE_tag_by_id_screenshot.png)
-
-**PRODUCTS**
-
-* GET all products
-![GET all products](/assets/images/GET_all_products_screenshot.png)
-
-* GET one product by id
-![GET one product by id](/assets/images/GET_one_product_by_id_screenshot.png)
-
-* CREATE new product
-![CREATE new product](/assets/images/CREATE_new_product_screenshot.png)
-
-* CREATE one product by id after creating new product
-![CREATE one tag by id after creating new tag](assets/images/GET_one_product_by_id_after_creating_new_product_screenshot.png)
-
-* UPDATE product by id
-![UPDATE product by id](/assets/images/UPDATE_product_by_id.png)
-
-* GET one product by id after updating new product
-![GET one tag by id after updating new tag ](/assets/images/GET_one_product_by_id_after_updating_new_product_screenshot.png)
-
-* DELETE product by id
-![DELETE product by id](/assets/images/DELETE_product_by_id_screenshot.png)
-
-**CATEGORIES**
-
-* GET all categories
-    ![GET all categories](/assets/images/GET_all_categories_screenshot.png)
-
-* GET one cateogry by id
-    ![GET one category by id](/assets/images/GET_one_category_by_id_screenshot.png)
-
-* CREATE new category
-![CREATE new category](/assets/images/CREATE_new_category_screenshot.png)
-
-* CREATE one category by id after creating new category
-![CREATE one tag by id after creating new tag](assets/images/GET_one_category_by_id_after_creating_new_category_screenshot.png)
+![folder structure](image here)
 
 
-* UPDATE category by id
-![UPDATE category by id](/assets/images/UPDATE_category_by_id.png)
+2.
+``````
+    WHEN I run `npm run start` from the root directory
+    THEN I find that my application should start up the backend and serve the client
+    WHEN I run the text editor application from my terminal
+    THEN I find that my JavaScript files have been bundled using webpack
+    WHEN I run my webpack plugins
+    THEN I find that I have a generated HTML file, service worker, and a manifest file
+``````
+*Below is the screenshot of the running at npm run start and npm run build* 
 
-* GET one category by id after updating new category
-![GET one tag by id after updating new tag ](/assets/images/GET_one_category_by_id_after_updating_new_category_screenshot.png)
+![npm run start and npm run build](image here)
 
-* DELETE category by id
-![DELETE category by id](/assets/images/DELETE_category_by_id_screenshot.png) -->
+*Below is the screenshot of the generated HTML, service worker and a manifest file*
+
+![genereated HTML](image here)
+
+3.
+``````
+WHEN I use next-gen JavaScript in my application
+THEN I find that the text editor still functions in the browser without errors
+WHEN I open the text editor
+``````
+*Below is the screenshot of the text editor "Just Another Text Editor (J.A.T.E)"*
+
+![Text Editor](image here)
+
+4.
+``````
+THEN I find that IndexedDB has immediately created a database storage
+WHEN I enter content and subsequently click off of the DOM window
+THEN I find that the content in the text editor has been saved with IndexedDB
+WHEN I reopen the text editor after closing it
+THEN I find that the content in the text editor has been retrieved from our IndexedDB
+``````
+*Below is the  screenshot of content in the text editor has been retrieved from the IndexedDB"*
+
+![content in the text editor](image here)
+
+5.
+``````
+WHEN I click on the Install button
+THEN I download my web application as an icon on my desktop
+``````
+*Below is the screenshot of icon on the desktop"*
+
+![icon on the desktop](image here)
+
+6.
+``````
+WHEN I load my web application
+THEN I should have a registered service worker using workbox
+WHEN I register a service worker
+THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
+``````
+*Below is the screenshot of the static assets pre cached upon loading with subsequent pages and static assets"*
+
+![static assets pre cached upon loading with subsequent pages and static assets 1](image here)
+
+![static assets pre cached upon loading with subsequent pages and static assets 2](image here)
+
+7.
+
+ ````````
+WHEN I deploy to Heroku
+THEN I should have proper build scripts for a webpack application 
+````````
+![deployed to Heroku screenshot](image here)
 
 
 ## Technologies Used
