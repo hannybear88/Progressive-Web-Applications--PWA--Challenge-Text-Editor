@@ -88,7 +88,7 @@ Testing restful API calls with Insomnia Core
 
 Click on the button below to be directed straight to the Heroku deployed application
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://nosql-social-network-api.herokuapp.com/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://pwa-challenge-text-editor.herokuapp.com/)
 
 Screenshots
 
