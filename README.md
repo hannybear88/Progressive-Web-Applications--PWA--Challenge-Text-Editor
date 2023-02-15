@@ -3,7 +3,7 @@ HW CHALLENGE #19
 
 
 ## Description
-Our task for this challenge is to build a text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
+So far, we have completed multiple projects, our task is to create a portfolio, using our new React skills to help set us apart from other developers whose portfolios don’t use the latest technologies.
 
 To build this text editor,we will start with an existing application and implement methods for getting and storing data to an IndexedDB database. We will use a package called `idb`, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla. [click here](https://github.com/hannybear88/Progressive-Web-Applications--PWA--Challenge-Text-Editor/tree/main/client/src/js)to see my code for this project.
 
@@ -91,6 +91,7 @@ Click on the button below to be directed straight to the Heroku deployed applica
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://nosql-social-network-api.herokuapp.com/)
 
 Screenshots
+
 1.
 ``````    
 GIVEN a text editor web application, 
