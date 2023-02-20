@@ -5,7 +5,7 @@ HW CHALLENGE #19
 ## Description
 So far, we have completed multiple projects, our task is to create a portfolio, using our new React skills to help set us apart from other developers whose portfolios don’t use the latest technologies.
 
-To build this text editor,we will start with an existing application and implement methods for getting and storing data to an IndexedDB database. We will use a package called `idb`, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla. [click here](https://github.com/hannybear88/Progressive-Web-Applications--PWA--Challenge-Text-Editor/tree/main/client/src/js)to see my code for this project.
+To build this text editor,we will start with an existing application and implement methods for getting and storing data to an IndexedDB database. We will use a package called `idb`, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla. [click here](https://github.com/hannybear88/Progressive-Web-Applications--PWA--Challenge-Text-Editor/tree/main/client/src/js) to see my code for this project.
 
 
 ## Table of Contents
@@ -100,7 +100,7 @@ THEN I should see a client server folder structure
 ``````
 *Below is the screenshot of the client server folder structure.  The folder structure have been set up or given in this structure.*
 
-![folder structure](image here)
+![folder structure](/Assets/images/pwa_folder_structure_screenshot.png)
 
 
 2.
@@ -114,11 +114,13 @@ THEN I should see a client server folder structure
 ``````
 *Below is the screenshot of the running at npm run start and npm run build* 
 
-![npm run start and npm run build](image here)
+![npm run start and npm run build](/Assets/images/pwa_npmrunstart_and_npmrunbuild_screenshot.png)
 
 *Below is the screenshot of the generated HTML, service worker and a manifest file*
 
-![genereated HTML](image here)
+![genereated HTML](/Assets/images/pwa_generatedHTML_serviceworkerandamanifestfile_screenshot.png)
+![service worker](image here)
+![manifest.json](image here)
 
 3.
 ``````
@@ -128,7 +130,7 @@ WHEN I open the text editor
 ``````
 *Below is the screenshot of the text editor "Just Another Text Editor (J.A.T.E)"*
 
-![Text Editor](image here)
+![Text Editor](/Assets//images/pwa_JATE_Screenshot.png)
 
 4.
 ``````
@@ -139,6 +141,7 @@ WHEN I reopen the text editor after closing it
 THEN I find that the content in the text editor has been retrieved from our IndexedDB
 ``````
 *Below is the  screenshot of content in the text editor has been retrieved from the IndexedDB"*
+![IndexedDB Storage](image here)
 
 ![content in the text editor](image here)
 
@@ -149,7 +152,7 @@ THEN I download my web application as an icon on my desktop
 ``````
 *Below is the screenshot of icon on the desktop"*
 
-![icon on the desktop](image here)
+![icon on the desktop](/Assets/images/pwa_JATE_icon_on_desktop_screnshot.png)
 
 6.
 ``````
@@ -170,7 +173,7 @@ THEN I should have my static assets pre cached upon loading along with subsequen
 WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application 
 ````````
-![deployed to Heroku screenshot](image here)
+![deployed to Heroku screenshot](/Assets/images/pwa_herokudepoyedapp_JATE_screenshot.png)
 
 
 ## Technologies Used
