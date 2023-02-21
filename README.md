@@ -92,88 +92,29 @@ Click on the button below to be directed straight to the Heroku deployed applica
 
 Screenshots
 
-1.
-``````    
-GIVEN a text editor web application, 
-WHEN I open my application in my editor
-THEN I should see a client server folder structure
-``````
-*Below is the screenshot of the client server folder structure.  The folder structure have been set up or given in this structure.*
+- Below is the screenshot of the text editor "Just Another Text Editor (J.A.T.E)" deployed on Heroku
 
-![folder structure](/Assets/images/pwa_folder_structure_screenshot.png)
+![deployed to Heroku screenshot](/Assets/images/pwa_JATE_deployedonheroku_screenshot.png)
+
+- Screenshot of J.A.T.E deployed on Heroku with content
+![Text Editor deployed with content](/Assets/images/pwa_JATE_app_installed_with_content_screenshot.png)
+
+<!-- - JATE app installation prompt pops up after the user clicks install
+
+![JATE app installation prompt](/Assets/images/pwa_JATE_install_app_prompt_screenshot.png) -->
+
+- JATE app shows on the desktop
+
+![icon on the desktop](/Assets/images/pwa_JATE_icon_on_desktop_screenshot.png)
+
+- J.A.T.E. app is downloaded
+![JATE app intalled](/Assets/images/pwa_JATE_app_installed_screenshot.png)
+
+- J.A.T.E. app is downloaded with content 
+
+![J.A.T.E. app installed with content](/Assets/images/pwa_JATE_app_installed_with_content_screenshot.png)
 
 
-2.
-``````
-    WHEN I run `npm run start` from the root directory
-    THEN I find that my application should start up the backend and serve the client
-    WHEN I run the text editor application from my terminal
-    THEN I find that my JavaScript files have been bundled using webpack
-    WHEN I run my webpack plugins
-    THEN I find that I have a generated HTML file, service worker, and a manifest file
-``````
-*Below is the screenshot of the running at npm run start and npm run build* 
-
-![npm run start and npm run build](/Assets/images/pwa_npmrunstart_and_npmrunbuild_screenshot.png)
-
-*Below is the screenshot of the generated HTML, service worker and a manifest file*
-
-![genereated HTML](/Assets/images/pwa_generatedHTML_serviceworkerandamanifestfile_screenshot.png)
-![service worker](image here)
-![manifest.json](image here)
-
-3.
-``````
-WHEN I use next-gen JavaScript in my application
-THEN I find that the text editor still functions in the browser without errors
-WHEN I open the text editor
-``````
-*Below is the screenshot of the text editor "Just Another Text Editor (J.A.T.E)"*
-
-![Text Editor](/Assets/images/pwa_JATE_Screenshot.png)
-
-4.
-``````
-THEN I find that IndexedDB has immediately created a database storage
-WHEN I enter content and subsequently click off of the DOM window
-THEN I find that the content in the text editor has been saved with IndexedDB
-WHEN I reopen the text editor after closing it
-THEN I find that the content in the text editor has been retrieved from our IndexedDB
-``````
-*Below is the  screenshot of content in the text editor has been retrieved from the IndexedDB"*
-![IndexedDB Storage](image here)
-
-![content in the text editor](image here)
-
-5.
-``````
-WHEN I click on the Install button
-THEN I download my web application as an icon on my desktop
-``````
-*Below is the screenshot of icon on the desktop"*
-
-![icon on the desktop](/Assets/images/pwa_JATE_icon_on_desktop_screnshot.png)
-
-6.
-``````
-WHEN I load my web application
-THEN I should have a registered service worker using workbox
-WHEN I register a service worker
-THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
-``````
-*Below is the screenshot of the static assets pre cached upon loading with subsequent pages and static assets"*
-
-![static assets pre cached upon loading with subsequent pages and static assets 1](image here)
-
-![static assets pre cached upon loading with subsequent pages and static assets 2](image here)
-
-7.
-
- ````````
-WHEN I deploy to Heroku
-THEN I should have proper build scripts for a webpack application 
-````````
-![deployed to Heroku screenshot](/Assets/images/pwa_herokudepoyedapp_JATE_screenshot.png)
 
 
 ## Technologies Used
