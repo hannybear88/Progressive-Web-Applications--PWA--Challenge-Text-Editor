@@ -100,9 +100,9 @@ Screenshots
 - Screenshot of J.A.T.E deployed on Heroku with content
 ![Text Editor deployed with content](/Assets/images/pwa_JATE_app_installed_with_content_screenshot.png)
 
-<!-- - JATE app installation prompt pops up after the user clicks install
+- JATE app installation prompt pops up after the user clicks install
 
-![JATE app installation prompt](/Assets/images/pwa_JATE_install_app_prompt_screenshot.png) -->
+![JATE app installation prompt](/Assets/images/pwa_JATE_install_app_prompt_screenshot.png)
 
 - JATE app shows on the desktop
 
