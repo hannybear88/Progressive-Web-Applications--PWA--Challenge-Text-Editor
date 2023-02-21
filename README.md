@@ -1,6 +1,7 @@
 # Progressive-Web-Applications--PWA--Challenge-Text-Editor
 HW CHALLENGE #19
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://pwa-challenge-text-editor.herokuapp.com/)
 
 ## Description
 So far, we have completed multiple projects, our task is to create a portfolio, using our new React skills to help set us apart from other developers whose portfolios don’t use the latest technologies.
