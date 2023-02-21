@@ -130,7 +130,7 @@ WHEN I open the text editor
 ``````
 *Below is the screenshot of the text editor "Just Another Text Editor (J.A.T.E)"*
 
-![Text Editor](/Assets//images/pwa_JATE_Screenshot.png)
+![Text Editor](/Assets/images/pwa_JATE_Screenshot.png)
 
 4.
 ``````
